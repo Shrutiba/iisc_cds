@@ -46,3 +46,29 @@ It is a random variable that has a uncountable range and whose cdf F<sub>x</sub>
 **Source :** <br>
 [zedstatistics] https://www.youtube.com/watch?v=YXLVjCKVP7U&t=420s <br>
 [IIT Roorkee] https://www.youtube.com/watch?v=0UxcDQz4sWQ&list=PLLy_2iUCG87D1CXFxE-SxCFZUiJzQ3IvE&index=50
+
+# Expectation and Variance
+
+**Expectation** <br>
+Expectation of a random variable X, denoted as E[X], is the probability-weighted average of all its possible values. Formally, expecation of X is defined as 
+
+&mu; = E[X] = &sum;<sub>x</sub> xf(x); X is discrete  f(x) is PMF <br>
+&mu; = E[X] = &int;<sub>-&infin;</sub><sup>&infin;</sup> xf(x)dx; X is continuous f(x) is PDF
+
+E[aX+b] = aE(x) + b
+
+**Variance** <br>
+Variance of a random variable X is a measure of a spread or dispersion of X about the mean. Formally, it is the average squared deviation of the values of X from the mean of X
+
+V[X] = E[X - E[X]]<sup>2</sup> = E[X<sup>2</sup>] - (E[X])<sup>2</sup> <br>
+V[aX + b] = a<sup>2</sup>V[X]
+
+# Binomial Distribution
+Pre-requisites of Binomial Distribution <br>
+- There are 2 potential outcomes per trial
+- The probability of success (p) is the same across all trials
+- The number of trials(n) is fixed
+- Each trial is independent <br>
+
+Formula: P(X = x) = <sup>n</sup>C<sub>x</sub> p<sup>x</sup> (1-p)<sup>n-x</sup> 
+
