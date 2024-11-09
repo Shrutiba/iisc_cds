@@ -61,7 +61,7 @@ E[aX+b] = aE(x) + b
 Variance of a random variable X is a measure of a spread or dispersion of X about the mean. Formally, it is the average squared deviation of the values of X from the mean of X
 
 V[X] = E[X - E[X]]<sup>2</sup> = E[X<sup>2</sup>] - (E[X])<sup>2</sup> <br>
-V[aX + b] = a<sup>2</sup>V[X]
+V[aX + b] = aX<sup>2</sup>V[X]
 
 # Binomial Distribution
 Pre-requisites of Binomial Distribution <br>
@@ -70,5 +70,19 @@ Pre-requisites of Binomial Distribution <br>
 - The number of trials(n) is fixed
 - Each trial is independent <br>
 
-Formula: P(X = x) = <sup>n</sup>C<sub>x</sub> p<sup>x</sup> (1-p)<sup>n-x</sup> 
+Formula (P.M.F): P(X = x) = <sup>n</sup>C<sub>x</sub> p<sup>x</sup> (1-p)<sup>n-x</sup> 
+E[X] = np
+V[X] = np(1-p)
+
+# Poisson Distribution <br>
+Describes the number of events occuring in a fixed time interval or region of opportunity
+- Requires only one parameter &lambda; <br>
+
+Assumption: <br>
+- The rate at which events occur is constant <br>
+- The occurance of one event does not affect the occurrence of a subsequent event <br>
+
+Formula (P.M.F) = e<sup>-&lambda;</sup>&lambda;<sup>x</sup>/x!
+E[X] = &lambda;
+V[X] = &lambda;
 
