@@ -28,4 +28,23 @@ Numerical Variable : Numbers Continuous
 Low cardinal
 High Cardinal Numerical Variable : Continuous
 
-Conditional Probability
+### Conditional Probability
+Y given X=x - P<sub>y/x</sub>(y/x) = P<sub>x,y</sub>/P<sub>x</sub><br>
+Num : Joint distribution<br>
+Denom : Marginal Distribution<br>
+P<sub>y/x</sub>(y/x) - Conditional Distribution<br>
+
+P<sub>x,y</sub>/P<sub>x</sub> 
+
+### Independence
+Causal variables and effects
+Independent variables : They are distinct and noninteracting physical
+If the variables are independent, there probability can be multiplied as they do not influence each other
+
+### Correlation
+If correlation between 2 variables is 0 then they are independent
+-1 <= variable <= 0 Inversely related
+0 <= variable <= 1 Directly related
+
+
+
