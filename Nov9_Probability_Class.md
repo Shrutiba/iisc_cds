@@ -1,4 +1,4 @@
-# GPT
+### GPT
 Auto Regressive Generation (ARG) - Predicting the next word based on words (Tokens) predicted till then. This prediction continues till the model predicts end of scentences <br>
 Mean Absolute Deviation (MAD) - it is the average of absolute diviation from the the mean <br>
 Mean Squared Deviation (MSD) - it is the average of the square of the diviation <br>
