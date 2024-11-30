@@ -46,5 +46,63 @@ If correlation between 2 variables is 0 then they are independent
 -1 <= variable <= 0 Inversely related
 0 <= variable <= 1 Directly related
 
+## A/B Testing <br>
+Input is allways Categorical
+
+-  t-test: <br>
+-  chi-square : Inpact of two categorical variable out put is class of categorical variable <br>
+-  1-Anova test: Impact of one categorical variable with multiple classes on a continuous variable <br>
+-  2-Anova test: impact of two categorical variable with multiple classes each on a continuous variable <br>
+
+Hypothesis Testing: Statistical Framework <br>
+Study: "Aspirin" effective in reducing heart attacks
+TG : Target Group
+  - Control Group
+  - Treatment Group
+Both the units should have other variables same except what we are testing
+
+4 step process <br>
+  1. Formulate Hypothesis (Null and Alternate) <br>
+  2. Define test statistic <br>
+  3. Evaluate p-value <br>
+  4. Compare to a significance level to reject or fail to reject the null hypothesis <br>
+
+Null Hypothesis: Something which has to be nullified <br>
+z-test : If sample is very large <br>
+t-test : if sample is < 30 <br>
+
+There are two types of error <br>
+-  Falsely Rejecting a Null Hypothesis - Type I Error (False Positive) <br>
+-  Falsely Failing to Reject a Null Hypothesis - Type II Error (False Negative) <br>
+
+Rejecting a H0 - Discovery
+Accept a H0 - No Discovery
+
+This determine the sample size based on Type 1 and Type II error <br>
+
+                                          Prob. of Reject HO      |  Prob. of Not Rejecting H0
+Actual effect - H0 is to be rejected         TP - alpha                   FN                                  
+No effect -     H0 is not to be reject       FP                           TN  - beta             
+
+  alpha - 95%  - Significance
+  1-beta - 80% - Power
+
+To calculate the sample size <br>
+https://www.abtasty.com/sample-size-calculator/     <br>   
+ttps://www.calculator.net/sample-size-calculator.html  <br>
+
+# Chi-Square Test <br>
+  Compare distribution outcome with multiple levels <br>
+
+# Entry into ML
+
+If input is categorical and numerical <br>
+Output is categorical and numerical <br>
+
+Then we need ML  - Linear Regression <br>
+Multiple categorical and numerical input => Output is categorical [Logistical Regression] <br>
+
+
+
 
 
